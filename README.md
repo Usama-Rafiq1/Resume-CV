@@ -1,4 +1,4 @@
-# arasgungore-CV
+# Usama Rafiq-CV
 
 My curriculum vitae (CV) written using LaTeX. In my CV, you may find my contact information, websites, education, experience, projects, and skills.
 
@@ -16,10 +16,10 @@ pdflatex main.tex
 run on overleaf.com
 ```
 
-
+https://raw.githubusercontent.com/arasgungore/arasgungore-CV/main/jpg/CV_page_1.jpg
 
 ## Screenshots
 
 <p align="center">
-    <img alt="Screenshot" src="C:/Users/usama/Downloads/CS-SEM4/CV/img/image.jpg" width="400">
+    <img alt="Screenshot" src="https://raw.githubusercontent.com/Usama-Rafiq1/Resume-CV/img/image.jpg" width="400">
 </p>
