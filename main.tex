@@ -1,0 +1,322 @@
+%-------------------------
+% Resume in Latex
+% Author : Aras Gungore
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{lipsum}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{hyphenat}
+\usepackage{fontawesome}
+\usepackage{tabto}
+\input{glyphtounicode}
+
+
+%---------- FONT OPTIONS ----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubSubheading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeEducationHeading}[6]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+      \textit{\small#5} & \textit{\small #6} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeOrganizationHeading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small#3}
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%---------- HEADING ----------
+
+\begin{center}
+    \textbf{\Huge \scshape Usama Rafiq} \\ \vspace{3pt}
+    \small
+    \faLinkedinSquare \hspace{.5pt} \href{https://www.linkedin.com/in/usama-rafiq1/}{LinkedIn}
+    $|$
+    \faGithub \hspace{.5pt} \href{https://github.com/usama-rafiq1/}{GitHub}
+    $|$
+    \faAt \hspace{.5pt} \href{mailto:usamarafiq0322@gmail.com}{usamarafiq0322@gmail.com}
+    $|$
+     \faMobile \hspace{.5pt} \href{tel:923362350948}{+92 336 2350948}
+    $|$
+    \faMapMarker $ $ {Karachi, Pakistan}
+\end{center}
+
+%----------- SUMMARY -----------
+
+\section{Summary}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+    \item{
+      \footnotesize{
+        Sophomore Computer Science student at Sir Syed University, with a \textbf{Current GPA 3.26/4}, eager to secure a Software Development Internship. Looking to leverage strong programming skills and a passion for innovation to contribute effectively to dynamic projects within a collaborative team environment.
+      }
+    }
+  \resumeSubHeadingListEnd
+
+
+%----------- EDUCATION -----------
+
+\section{Education}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+    
+    \resumeEducationHeading
+      {Sir Syed University Of Engineering \& Technology
+      %\normalfont{(Admission rate: 0.09\%)}
+      }{Karachi, PK}
+      {Bachelors in Computer Science}{Oct 2022 \textbf{--} 2026}
+      {\textbf{}}{}
+        \resumeSubHeadingListStart
+        \small{\item{
+            \textbf{Relevant coursework:} {Data Structures \& Algorithms, Object Oriented Programming, Database Systems, \\ \tabto{112pt}
+            Computer Architecture \& Assembly Language, Theory Of Computation.    }}}
+        \resumeSubHeadingListEnd
+    
+    % \resumeSubheading
+      % {Kocaeli Science High School
+      % \normalfont{(Admission rate: 0.85\%)}
+      % }{Kocaeli, Turkey}
+      % {High School Diploma;   \textbf{GPA: 97.03/100}}{Sep 2014 \textbf{--} Jun 2018}
+    
+  \resumeSubHeadingListEnd
+
+
+
+%----------- SKILLS -----------
+
+\section{Technical Skills}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+        
+        \textbf{Languages:}{ C/C++, C\#, Python, JavaScript, TypeScript, SQL, Bash} \\ \vspace{3pt}
+        
+        \textbf{Technologies:}{ Qt, Flask, Django, Node.js, React.js, MySQL} \\ \vspace{3pt}
+        
+        \textbf{Tools:}{ Git, Docker, NeoVIM, VScode} \\ \vspace{3pt}
+    }}
+  \resumeSubHeadingListEnd
+
+
+%----------- PROJECTS -----------
+
+\section{Projects}
+    \vspace{3pt}
+    \resumeSubHeadingListStart
+      
+      \resumeProjectHeading 
+        {\textbf{MovieDB} $|$ \textit{Javascript, React, Python, SQL} $|$ \emph{\href{https://github.com/Usama-Rafiq1/MovieDB}{\color{blue}GitHub}}}{}
+          \resumeItemListStart
+            \resumeItem{\textbf{Developed a  user-friendly movie database web-app For Database Systems class}.  letting users easily explore and search for movies, TV shows, and entertainment industry figures using the TMDB API.}
+            \resumeItem{\textbf{Integrated a comprehensive IMDb dataset (over 400,000 movies) into an SQLite database} to facilitate efficient data management and query operations, leveraging Python for backend processing. }
+          \resumeItemListEnd
+          
+      \resumeProjectHeading 
+        {\textbf{Image Filter} $|$ \textit{C, Makefile} $|$ \emph{\href{https://github.com/Usama-Rafiq1/image-filter}{\color{blue}GitHub}}}{}
+          \resumeItemListStart
+            \resumeItem{\textbf{command-line image filter tool in C} that applies various effects to BMP files, utilizing \texttt{getopt} for argument parsing.}
+            \resumeItem{\textbf{Implemented efficient memory management} and error handling, ensuring robust processing of image data and compatibility with 24-bit uncompressed BMP format.}
+          \resumeItemListEnd
+
+      
+      \resumeProjectHeading
+        {\textbf{Pharmacy Management System} $|$ \textit{Python, TkinterUI, SQLlite} $|$ \emph{\href{https://github.com/Usama-Rafiq1/Pharmacy-Management-System}{\color{blue}GitHub}}}{}
+          \resumeItemListStart
+            \resumeItem{\textbf{}{A Pharmacy Management System using Python and Tkinter}, featuring a graphical user interface (GUI) for managing pharmacy operations, including adding, updating, and deleting records, with data stored in an SQLite database.}
+          \resumeItemListEnd
+
+            \resumeProjectHeading
+        {\textbf{Bash Automation Scrips} $|$ \textit{Bash, Linux} $|$ \emph{\href{https://github.com/Usama-Rafiq1/}{\color{blue}GitHub}}}{}
+          \resumeItemListStart
+            \resumeItem{\textbf{Created scripts for everyday Linux tasks}, making daily operations smoother and more efficient. This included a script that automatically backs up important folders to \texttt{Google Drive} and another that simplifies the management of users and groups on Linux systems.}
+          \resumeItemListEnd
+      
+    \resumeSubHeadingListEnd
+%----------- EXPERIENCE -----------
+
+\section{Volunteer Experience}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {SMEC 2024}{}
+      {Web Development Team Volunteer }{Nov 2023 \textbf{--}  Jan 2024}
+        \resumeItemListStart
+            \resumeItem{Oversaw technical setup and maintenance during the competition, ensuring systems were current and functioning correctly. Assisted participants with technical issues, contributing to a smooth and successful event.}  
+        \resumeItemListEnd
+
+    \resumeSubSubheading
+      {Tutor - Computer Science Department}{Oct 2023 \textbf{--} June 2024}
+      {}{}
+        \resumeItemListStart
+            \resumeItem{Contributed significantly to the academic success of peers.}
+            \resumeItem{Assisted students with coding challenges, debugging and code design.}
+        \resumeItemListEnd
+
+
+
+
+%----------- RELEVANT COURSEWORK -----------
+
+% \section{Relevant Coursework}
+  % \vspace{2pt}
+  % \resumeSubHeadingListStart
+    % \small{\item{
+        % \textbf{Major coursework:}{ Materials Science, Electrical Circuits I-II, Digital System Design, Numerical Methods, Probability Theory, Electronics I-II, Signals and Systems, Electromagnetic Field Theory, Energy Conversion, System Dynamics and Control, Communication Engineering, Pattern Recognition, Introduction to Digital Signal Processing, Introduction to Digital Communications, Introduction to Database Systems, Introduction to Image Processing, Machine Vision} \\ \vspace{3pt}
+        
+        % \textbf{Minor coursework:}{ Discrete Computational Structures, Introduction to Object-Oriented Programming, Data Structures and Algorithms, Computer Organization, Fundamentals of Software Engineering}
+    % }}
+  % \resumeSubHeadingListEnd
+
+
+
+%----------- CERTIFICATES -----------
+
+% \section{Certificates}
+  % \resumeSubHeadingListStart
+    
+    % \resumeOrganizationHeading
+      % {Procter \& Gamble VIA Certificate Program}{Feb 2022}{Project Management and Personal Productivity}
+    
+  % \resumeSubHeadingListEnd
+
+
+
+%----------- ORGANIZATIONS -----------
+
+% \section{Organizations}
+  % \resumeSubHeadingListStart
+    
+    % \resumeOrganizationHeading
+      % {Institute of Electrical and Electronics Engineers (IEEE)}{Feb 2022 -- Present}{Student Member}
+    
+  % \resumeSubHeadingListEnd
+
+
+
+%----------- HOBBIES -----------
+
+% \section{Hobbies}
+  % \resumeSubHeadingListStart
+    % \small{\item{Basketball, Swimming, Fitness, Eight-ball, Horology}}
+  % \resumeSubHeadingListEnd
+
+
+
+%----------- REFERENCES -----------
+
+% \section{References}
+  % \vspace{2pt}
+  % \resumeSubHeadingListStart
+    % \item{References available upon request.}
+  % \resumeSubHeadingListEnd
+
+
+
+%-------------------------------------------
+\end{document}
