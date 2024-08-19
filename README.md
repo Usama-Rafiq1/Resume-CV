@@ -16,7 +16,6 @@ pdflatex main.tex
 run on overleaf.com
 ```
 
-https://raw.githubusercontent.com/arasgungore/arasgungore-CV/main/jpg/CV_page_1.jpg
 
 ## Screenshots
 
